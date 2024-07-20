@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d9d9d9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content1 {
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+    color: white;
+}
+
+.firstcls {
+    display: flex;
+}
+
+.firstcls .seachbar {
+    display: flex;
+}
+
+
+/* .phone {
+    color: white;
+} */
+
+.firstcls .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.115rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.one .content:before {
+    position: absolute;
+    content: '';
+    top: 42px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+.one .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #f12020;
+    top: 42px;
+}
+
+.left .content:before {
+    position: absolute;
+    content: '';
+    top: 42px;
+    height: 2px;
+    width: 10%;
+    background: #1a1a1a;
+}
+
+.left .content:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #f12020;
+    top: 42px;
+}
+
+.left {
+    width: 20%;
+    height: 190px;
+    padding: 20px;
+    background: rgb(1, 14, 14);
+    border: 3px solid rgb(161, 13, 13);
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 7px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #f12020;
+}
+
+.left .content .fas {
+    font-size: 1rem;
+    background: #1a1a1a;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.left .content .fas:hover {
+    background: #f12020;
+}
+
+.one li {
+    list-style: none;
+}
+
+.one li a {
+    text-decoration: none;
+}
+
+.firstcls .seachbar .input-box {
+    margin-right: 45px;
+}
+
+.seachbar .input-box input {
+    height: 40px;
+    width: calc(100% + 45px);
+    outline: none;
+    border: 2px solid #d64141;
+    background: #0a0a0a;
+    border-radius: 4px;
+    padding: 0 15px;
+    font-size: 15px;
+    color: #000;
+    margin-top: 5px;
+}
+
+.seachbar .input-box input::placeholder {
+    color: #fff;
+    font-size: 16px;
+}
+
+.seachbar .input-box input[type="button"] {
+    background: #f12020;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 4px 0;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.seachbar .input-box input[type="button"]:hover {
+    opacity: 1;
+    background: #000;
+    color: #f12020;
+    border: 2px solid #d64141;
+}
+
+.niche center {
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+
+.niche center span {
+    color: #656565;
+}
+
+.niche center a {
+    color: #f12020;
+    text-decoration: none;
+}
+
+.niche center a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1140px) {
+    .left {
+        width: 40%;
+        height: 200%;
+    }
+    .left .content .social a {
+        padding: 1px 4px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    @media screen and (max-width: 900px) {
+        footer {
+            position: relative;
+            bottom: 0px;
+        }
+        .firstcls {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .firstcls .box {
+            margin: 7px 0;
+        }
+        .left {
+            width: 98%;
+            height: 220%;
+        }
+        .one .content:before {
+            width: 85%;
+        }
+        .box h2 {
+            color: red;
+        }
+    }
+}
+
+
+/* @media (max-width: 1000px) {
+    .firstcls .seachbar {
+        flex-wrap: wrap;
+    }
+    .firstcls .seachbar .input-box {
+        width: 40%;
+        margin-top: 10px;
+    }
+} */
